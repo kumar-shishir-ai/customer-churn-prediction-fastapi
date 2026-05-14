@@ -10,13 +10,13 @@ churn-project/
 │   │
 │   ├── templates/
 │   │   ├── index.html
-│   │   ├── result.html
+│   │   
 │   │
 │   ├── static/
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   ├── js/
-│   │   ├── images/
+│   │   ├── tyle.css
+│   │   
+│   │   
+│   │   
 │   │
 │   ├── __init__.py
 │   └── main.py

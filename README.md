@@ -14,27 +14,10 @@ The project includes:
 
 ---
 
-# Project Architecture
 
-my-project/
-│
-├── app/
-│   ├── api/
-│   ├── cache/
-│   ├── core/
-│   ├── middleware/
-│   ├── models/
-│   ├── services/
-│   ├── templates/
-│   ├── static/
-│   ├── main.py
-│
-├── data/
-├── notebooks/
-├── training/
-├── requirements.txt
-├── Dockerfile
-└── README.md
+## 📌 Problem Statement
+Customer churn is a major challenge for subscription-based businesses.  
+The objective of this project is to build a machine learning model that can accurately predict customer churn and help businesses take proactive retention actions.
 
 ---
 

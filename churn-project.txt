@@ -1,0 +1,34 @@
+churn-project/
+│
+├── app/
+│   ├── api/
+│   ├── cache/
+│   ├── core/
+│   ├── middleware/
+│   ├── models/
+│   ├── services/
+│   │
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── result.html
+│   │
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── js/
+│   │   ├── images/
+│   │
+│   ├── __init__.py
+│   └── main.py
+│
+├── data/
+├── notebooks/
+├── training/
+├── requirements.txt
+├── docker-compose.yml
+├── render.yaml
+├── Prometheus.yml
+├── .env
+├── README.md
+├── .gitignore
+└── Dockerfile

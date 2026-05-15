@@ -12,6 +12,6 @@ def churn_prediction(data: dict):
         return cached
 
     input_data = pd.DataFrame([data])
-    prediction = model.predict_proba(input_data)[0][1]
+    prediction = float(model.predict_proba(input_data)[0][1])
     set_cached_prediction(cache_key, prediction)
     return prediction

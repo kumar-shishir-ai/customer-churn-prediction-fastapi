@@ -25,7 +25,7 @@ class ChurnFeatures(BaseModel):
     PaymentMethod: str 
     MonthlyCharges: float
     TotalCharges: float
-    tenure_group: str  
+    tenure_group: str 
 
 @router.post("/predict")
 def predict_churn(churn: ChurnFeatures, user = Depends(get_current_user), _=Depends(get_api_key)):
